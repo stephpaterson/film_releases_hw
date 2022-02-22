@@ -34,13 +34,13 @@ const FilmReleaseBox = () => {
     )
 
     return (
-        <>
+        <div className="release-box">
             <h2>Film Releases</h2>
             <hr />
             <FilmList films={films}/>
             <hr />
             <UpcomingFilms />
-        </>
+        </div>
     )
 }
 
